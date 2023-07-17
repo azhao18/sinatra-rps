@@ -4,13 +4,16 @@ require "sinatra/reloader"
 get("/") do
   "
   <div>
-    <a href=\"/rock\">Play rock</a>
+    <a href=\"/rock\">Play Rock</a>
   </div>
   <div>
-    <a href=\"/paper\">Play paper</a>
+    <a href=\"/paper\">Play Paper</a>
   </div>
   <div>
-    <a href=\"/scissors\">Play scissor</a>
+    <a href=\"/scissors\">Play Scissor</a>
+  </div>
+  <div>
+    <h1>Welcome to Rock-Paper-Scissors!</h1>
   </div>
   "
 end
