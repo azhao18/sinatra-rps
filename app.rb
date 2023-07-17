@@ -32,6 +32,7 @@ get("/rock") do
   end
 
   erb(:zebra)
+ 
 end
 
 get("/paper") do
