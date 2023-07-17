@@ -10,7 +10,7 @@ get("/") do
     <a href=\"/paper\">Play Paper</a>
   </div>
   <div>
-    <a href=\"/scissors\">Play Scissor</a>
+    <a href=\"/scissors\">Play Scissors</a>
   </div>
   <div>
     <h1>Welcome to Rock-Paper-Scissors!</h1>
