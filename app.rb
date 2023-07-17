@@ -3,8 +3,15 @@ require "sinatra/reloader"
 
 get("/") do
   "
-  <h1>Welcome to your Sinatra App!</h1>
-  <p>Define some routes in app.rb</p>
+  <div>
+    <a href=\"/rock\">Play rock</a>
+  </div>
+  <div>
+    <a href=\"/paper\">Play paper</a>
+  </div>
+  <div>
+    <a href=\"/scissors\">Play scissor</a>
+  </div>
   "
 end
 
