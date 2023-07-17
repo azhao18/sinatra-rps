@@ -50,3 +50,19 @@ get("/paper") do
 
   erb(:giraffe)
 end
+
+get("/scissors") do
+  moves = ["rock", "paper", "scissors"]
+  
+  @comp_move = moves.sample
+
+  if @comp_move == "rock"
+    @outcome = "lost"
+  elsif @compmove == "paper"
+    @outcome = "won"
+  else
+    @outcome = "tie"
+  end
+
+  erb(:dolphin)
+end
